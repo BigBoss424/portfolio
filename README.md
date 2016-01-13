@@ -11,6 +11,7 @@ Contact
 
 Update 1: Implemented the Google Forms to the webpage but having issues with the CSS rules for the page itself. Gotta shift it to the form to the right. Will figure out how to do so by the second update. 
 
+Update 2: Successfully implemented the Google Forms into this page as well as fixed the CSS rules which really boiled down to the div tags not being properly implemented. 
 
 Building my own Form 
 =========
