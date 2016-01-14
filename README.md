@@ -5,6 +5,7 @@ This will be the construction of my portfolio website.
 
 Deciding whether or not to implement my own javascript contact form or usng a pre-made one from Google Forms is a difficult choice. 
 
+Finally finished the construction of this portfolio site which begins my web career. We shall see how things go from here. I will be looking toward implementing a blog which I build from RoR and more than likely going to implement a Skills page to showcase what I'm good at and what I'm not so good at. 
 
 Contact
 =========
