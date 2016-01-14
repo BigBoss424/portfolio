@@ -89,6 +89,12 @@ h1{
 .soc-email1:before {
     content:'<';
 }
+.soc-github {
+    background-color: #5380c0;
+}
+.soc-github:before {
+    content:'Q';
+}
 .soc-google {
     background-color: #d93e2d;
 }
@@ -107,6 +113,9 @@ h1{
 }
 .soc-email1:hover {
     background-color: #6b9eea;
+}
+.soc-github:hover {
+    background-color: #6794d4;
 }
 .soc-google:hover {
     background-color: #ed5241;
