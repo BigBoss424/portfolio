@@ -1,96 +1,390 @@
-<!doctype html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Aaron Jones | Web Developer | Programmer</title>
+    <meta name="author" content="Aaron Jones"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""/>
+    <meta name="keywords" content="">
 
-    <title>Aaron Jones &ndash; Software Developer &ndash; Web Developer</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+    <link rel="stylesheet" type="text/css" href="css/intro.css">
+
+    <!-- HTML5 support for IE -->
+    <!--[if lt IE9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/side-menu.css">
-    <!--<![endif]-->
+
 </head>
 <body>
-<div id="layout">
-    <!-- Menu toggle -->
-    <a href="#menu" id="menuLink" class="menu-link">
-        <!-- Hamburger icon -->
-        <span></span>
-    </a>
 
-    <div id="menu">
-        <div class="pure-menu pure-menu-open">
-            <a class="pure-menu-heading" href="#">Aaron Jones</a>
+<div id="st-container" class="st-container st-effect-3">
+    <!-- top navigation -->
+    <header id="headernav">
+      <a href="#mslider" class="logo" data-scroll><span class="icon-logo"></span> Logo</a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item"><a href="#mslider" data-scroll><span class="fa fa-user"></span>Home</a></li>
+          <li class="menu-item"><a href="#services" data-scroll><span class="fa fa-cog"></span>Services</a></li>
+          <li class="menu-item"><a href="#portfolio" data-scroll><span class="fa fa-eye open"></span>Portfolio</a></li>
+          <li class="menu-item"><a href="#about" data-scroll><span class="fa fa-info sign"></span>About</a></li>
+          <li class="menu-item"><a href="#contact" data-scroll><span class="fa fa-paper-plane"></span>Contact</a></li>
+          <li class="menu-item"><a href="#" class="lang">EN</a></li>
+          <li class="menu-item"><a href="#/de" class="lang">DE</a></li>
+          <li class="menu-item"><a href="#/ru" class="lang">RU</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- /top navigation -->
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="html/aboutme.html">About</a></li>
-                <li><a href="html/projects.html">Projects</a></li>
-                <li><a href="html/services.html">Services</a></li>
-                <li><a href="html/contact.html">Contact</a></li>
+    <!-- intro slider -->
+    <section id="mslider">
+      <div id="wrap" class="wrap">
+        <div class="mockup">
+          <img class="mockup__img" src="images/bg.jpg" alt="alt text" />
+          <div class="screen">
+            <ul id="slideshow" class="slideshow">
+              <li class="slideshow__item"><img src="images/slideshow/1.jpg" alt=""/></li>
+              <li class="slideshow__item"><img src="images/slideshow/2.jpg" alt=""/></li>
+              <li class="slideshow__item"><img src="images/slideshow/3.jpg" alt=""/></li>
+              <li class="slideshow__item"><img src="images/slideshow/4.jpg" alt=""/></li>
             </ul>
-        </div>
-    </div>
-
-    <div id="main">
-        <div class="header">
-            <h1>Welcome to My Site</h1>
-            <h2>Aaron Jones | Programmer | Web Designer | Computer Scientist</h2>
-        </div>
-
-        <div class="content">
-            
-            <p>
-                Welcome to my site. I have many services which I provide and deliver upon. Feel free to browse the <a href="html/aboutme.html">About Me</a> section to learn more about me, the <a href="html/projects.html">Projects</a> section to see what projects I am working on and have worked on. As well as the <a href="html/contact.html">Contact</a> section to get into contact with me for any of your web and software needs. 
-            </p>
-
-            <h2 class="content-subhead">Aspirations For The Site</h2>
-            <p>
-                <ul>
-                    <ol>1) Show Off All Software I've Created</ol>
-                    <ol>2) To use this site as my resume</ol>
-                    <ol>3) To expand my knowledge of development</ol>
-                </ul>
-            </p>
-
-            <div class="pure-g">
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://webmarketflorida.com/wp-content/uploads/2015/04/Dollarphotoclub_491047101.jpg" alt="Web Development">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://www.axtongroup.com/android-app-developer/wp-content/uploads/2013/06/Android-App-Developers.jpg" alt="Android">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://isquareinfotech.com/wp-content/uploads/2015/07/web-hosting.png" alt="Web Hosting">
-                </div>
-                <div class="pure-u-1-4">
-                    <img class="pure-img-responsive" src="http://www.crmphilly.com/wp-content/uploads/2013/10/Software-Development.jpg" alt="Software Development">
-                </div>
+          </div>
+          <header class="main-header">
+            <h1 class="animated fadeInRight delay-1s">Here can be some intro information about the company</h1>
+            <div class="learn-more-wrap">
+              <a href="#services" class="animated fadeInUp delay-2s learn-more" data-scroll><span>Learn More</span></a>
             </div>
+          </header>
         </div>
+      </div>
+    </section>
+    <!-- /intro slider -->
+
+    <div class="st-content">
+      <div class="st-content-inner">
+        <!-- services -->
+        <section class="text-center section-padding" id="services">
+          <div class="container">
+            <div class="row">
+              <h1>Our Services</h1>
+              <div class="services-wrapper">
+                <div class="col-md-4 wp2">
+                  <div class="light-box box-hover">
+                    <div class="icon">
+                      <img src="images/bulb.svg" alt="">
+                    </div>
+                    <h2>Lorem Ipsum 1</h2>
+                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 wp2 delay-05s">
+                  <div class="light-box box-hover">
+                    <div class="icon">
+                      <img src="images/printer.svg" alt="">
+                    </div>
+                    <h2>Lorem Ipsum 2</h2>
+                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 wp2 delay-1s">
+                  <div class="light-box box-hover">
+                    <div class="icon">
+                      <img src="images/browser.svg" alt="">
+                    </div>
+                    <h2>Lorem Ipsum 3</h2>
+                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /services -->
+
+        <!-- portfolio -->
+        <section class="clearfix" id="portfolio" >
+          <div class="text-center portfolioheader">
+            <h1>Our portfolio</h1>
+            <p>Browse our portfolio</p>
+          </div>
+          <div class="grid">
+
+            <!-- project 0 -->
+            <div id="project0" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 1</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project0">
+              <figure class="effect-portfolio wp4 delay-01s">
+                <img src="images/project-thumb.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 1</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project0_icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 0 -->
+
+            <!-- project 1 -->
+            <div id="project1" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 2</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project1">
+              <figure class="effect-portfolio wp4 delay-01s">
+                <img src="images/project-thumb2.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 2</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project1-icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 1 -->
+
+            <!-- project 2 -->
+            <div id="project2" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 3</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project2">
+              <figure class="effect-portfolio wp4 delay-05s">
+                <img src="images/project-thumb2.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 3</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project2-icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 2 -->
+
+            <!-- project 3 -->
+            <div id="project3" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 4</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project3">
+              <figure class="effect-portfolio wp4 delay-05s">
+                <img src="images/project-thumb.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 4</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project3-icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 3 -->
+
+            <!-- project 4 -->
+            <div id="project4" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 5</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project4">
+              <figure class="effect-portfolio wp4 delay-05s">
+                <img src="images/project-thumb.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 5</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project4-icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 4 -->
+
+            <!-- Project 5 -->
+            <div id="project5" class="zoom-anim-dialog mfp-hide projects">
+              <h1>Project 6</h1>
+              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
+              <a href="#" target="_blank" class="projectlink">Visit Website</a>
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+              <img src="images/project.jpg" alt="">
+            </div>
+            <a class="popup-with-zoom-anim" href="#project5">
+              <figure class="effect-portfolio wp4 delay-05s">
+                <img src="images/project-thumb2.jpg" alt=""/>
+                <figcaption>
+                  <h2>Project 6</h2>
+                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
+                  <span class="icon-project5-icon"></span>
+                </figcaption>
+              </figure>
+            </a>
+            <!-- /project 5 -->
+
+          </div>
+          <!-- /Grid -->
+        </section>
+        <!-- /portfolio -->
+
+        <!-- about -->
+        <section class="light-bg text-center" id="about">
+          <div class="container-fluid nopadding">
+            <div class="wrapper">
+              <div class="aboutimgwrap">
+                <div class="wp3 aboutimg"></div>
+              </div>
+            </div>
+            <div class="container about">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                  <h1>About Us</h1>
+                  <p>Vivamus rhoncus justo viverra iaculis posuere. Nulla commodo porttitor neque nec varius. Nullam ac odio ac libero tincidunt sodales. Aenean sed tincidunt odio. Donec ut varius sed.</p>
+                  <p>Vivamus rhoncus justo viverra iaculis posuere. Nulla commodo porttitor neque nec varius. Nullam ac odio ac libero tincidunt sodales. Aenean sed tincidunt odio. Donec ut varius sed.</p>
+                  <p>Vivamus rhoncus justo viverra iaculis posuere. Nulla commodo porttitor neque nec varius. Nullam ac odio ac libero tincidunt sodales. Aenean sed tincidunt odio. Donec ut varius sed.</p>
+                  <p>Vivamus rhoncus justo viverra iaculis posuere. Nulla commodo porttitor neque nec varius. Nullam ac odio ac libero tincidunt sodales. Aenean sed tincidunt odio. Donec ut varius sed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /about -->
+
+        <!-- contact -->
+        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Contact Us</h1>
+                <h2>Want to discuss? Get in touch!</h2>
+                <a id="trigger-overlay" class="animated fadeInDown delay-2s send-message" href="#contact" data-scroll><span>Send us a message</span></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /contact -->
+
+        <!-- contact form -->
+        <div id="pro">
+          <div class="overlay overlay-contentpush">
+            <button type="button" class="overlay-close">Close</button>
+            <div class="container">
+              <div class="projectplanner">
+                <h1>Want to discuss?</h1>
+                <h2>We'd love to hear from you.</h2>
+                <div class="container">
+                  <div class="col-sm-offset-3 col-sm-6">
+
+                    <form name="sentMessage" class="contactForm" id="contactForm" novalidate>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control input-lg" placeholder="Name *" id="name" required data-validation-required-message="Please enter your name" />
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control input-lg" placeholder="Email address *" id="email" required data-validation-required-message="Please enter your email" />
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label for="website">Website</label>
+                          <input type="text" class="form-control input-lg" placeholder="Website" id="website" />
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <label for="message">Message</label>
+                          <textarea rows="10" cols="100" class="form-control input-lg" placeholder="How can we help? *" id="message" required
+                            data-validation-required-message="Please enter your message" minlength="5" 
+                            data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+                      <div id="success"> </div>
+                      <button type="submit" class="submit-btn center-block">Send Message</button><br />
+                      <span class="required">* required fields</span>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /contact form -->
+
+        <!-- Google map -->
+        <div id="cd-google-map">
+          <div id="google-container"></div>
+          <div id="cd-zoom-in"></div>
+          <div id="cd-zoom-out"></div>
+          <address>Our address</address>
+        </div>
+        <!-- /Google map -->
+
+        <!-- footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 copyright">
+                <h1><span class="icon-logo"></span>Logo</h1>
+                <p>Etiam at sapien eu lectus tempor nullam.</p>
+                <p>&copy; 2015 Company</p>
+              </div>
+              <div class="col-md-6 footerlinks">
+                <ul>
+                  <li><a class="up-btn2" href="#mslider">Back to Top</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- /footer -->
+
+      </div>
     </div>
-</div>
+  </div>
 
 
 
 
 
-<script src="js/ui.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61255768-9', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/fastclick.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/libraries.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+<script type="text/javascript" src="js/overlay.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src=""></script>
 </html>
