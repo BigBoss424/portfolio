@@ -33,4 +33,6 @@ I think at the end of the day I will go with Google Forms for the time being jus
 
 Perhaps another time I will focus on implementing a javascript form for another project but for this one it will be simpiler to just build one from Google Forms. 
 
-
+Building my own blog
+===========
+I've decided after a long time to finally build my own using PHP. I believe this will help me better understand how php works and better utilize it within my web programming. 
