@@ -1,387 +1,228 @@
 <html>
 <head>
-    <title>Aaron Jones | Web Developer | Programmer</title>
-    <meta name="author" content="Aaron Jones"/>
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=""/>
-    <meta name="keywords" content="">
-
-    <!-- CSS Styles -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="css/queries.css">
-    <link rel="stylesheet" type="text/css" href="css/intro.css">
-
-    <!-- HTML5 support for IE -->
-    <!--[if lt IE9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <title>Aaron Jones Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" title="styles" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" title="bootstrap" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" title="font-awesome" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" title="fonts" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Dosis|Cinzel:400,900' rel='stylesheet' type='text/css'" title="fonts" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" title="fonts2" type="text/css" media="screen" charset="utf-8">
 </head>
+
+<!--Navigator Links-->
+
 <body>
+  <div>
+    <ul class="navigator">
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#home">Home</a></li>
+      <li-nav>FlyinKibblez</li-nav>
+    </ul>
+  </div>
 
-<div id="st-container" class="st-container st-effect-3">
-    <!-- top navigation -->
-    <header id="headernav">
-      <a href="#mslider" class="logo" data-scroll><span class="icon-logo"></span> Logo</a>
-      <nav class="nav-collapse">
-        <ul>
-          <li class="menu-item"><a href="#mslider" data-scroll><span class="fa fa-user"></span>Home</a></li>
-          <li class="menu-item"><a href="#services" data-scroll><span class="fa fa-cog"></span>Services</a></li>
-          <li class="menu-item"><a href="#portfolio" data-scroll><span class="fa fa-eye open"></span>Portfolio</a></li>
-          <li class="menu-item"><a href="#about" data-scroll><span class="fa fa-info sign"></span>About</a></li>
-          <li class="menu-item"><a href="#contact" data-scroll><span class="fa fa-paper-plane"></span>Contact</a></li>
-          <li class="menu-item"><a href="#" class="lang">EN</a></li>
-          <li class="menu-item"><a href="#/de" class="lang">DE</a></li>
-          <li class="menu-item"><a href="#/ru" class="lang">RU</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- /top navigation -->
-
-    <!-- intro slider -->
-    <section id="mslider">
-      <div id="wrap" class="wrap">
-        <div class="mockup">
-          <img class="mockup__img" src="images/bg.jpg" alt="alt text" />
-          <div class="screen">
-            <ul id="slideshow" class="slideshow">
-              <li class="slideshow__item"><img src="images/slideshow/1.jpg" alt=""/></li>
-              <li class="slideshow__item"><img src="images/slideshow/2.jpg" alt=""/></li>
-              <li class="slideshow__item"><img src="images/slideshow/3.jpg" alt=""/></li>
-              <li class="slideshow__item"><img src="images/slideshow/4.jpg" alt=""/></li>
-            </ul>
-          </div>
-          <header class="main-header">
-            <h1 class="animated fadeInRight delay-1s">Here can be some intro information about the company</h1>
-            <div class="learn-more-wrap">
-              <a href="#services" class="animated fadeInUp delay-2s learn-more" data-scroll><span>Learn More</span></a>
-            </div>
-          </header>
-        </div>
-      </div>
-    </section>
-    <!-- /intro slider -->
-
-    <div class="st-content">
-      <div class="st-content-inner">
-        <!-- services -->
-        <section class="text-center section-padding" id="services">
-          <div class="container">
-            <div class="row">
-              <h1>Our Services</h1>
-              <div class="services-wrapper">
-                <div class="col-md-4 wp2">
-                  <div class="light-box box-hover">
-                    <div class="icon">
-                      <img src="images/bulb.svg" alt="">
-                    </div>
-                    <h2>Lorem Ipsum 1</h2>
-                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
-                  </div>
-                </div>
-                <div class="col-md-4 wp2 delay-05s">
-                  <div class="light-box box-hover">
-                    <div class="icon">
-                      <img src="images/printer.svg" alt="">
-                    </div>
-                    <h2>Lorem Ipsum 2</h2>
-                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
-                  </div>
-                </div>
-                <div class="col-md-4 wp2 delay-1s">
-                  <div class="light-box box-hover">
-                    <div class="icon">
-                      <img src="images/browser.svg" alt="">
-                    </div>
-                    <h2>Lorem Ipsum 3</h2>
-                    <p>Aliquam lobortis, lectus eget eleifend porttitor, odio ex sodales urna, eget scelerisque nunc turpis at justo. Aenean vel posuere.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- /services -->
-
-        <!-- portfolio -->
-        <section class="clearfix" id="portfolio" >
-          <div class="text-center portfolioheader">
-            <h1>Our portfolio</h1>
-            <p>Browse our portfolio</p>
-          </div>
-          <div class="grid">
-
-            <!-- project 0 -->
-            <div id="project0" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 1</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project0">
-              <figure class="effect-portfolio wp4 delay-01s">
-                <img src="images/project-thumb.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 1</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project0_icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 0 -->
-
-            <!-- project 1 -->
-            <div id="project1" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 2</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project1">
-              <figure class="effect-portfolio wp4 delay-01s">
-                <img src="images/project-thumb2.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 2</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project1-icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 1 -->
-
-            <!-- project 2 -->
-            <div id="project2" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 3</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project2">
-              <figure class="effect-portfolio wp4 delay-05s">
-                <img src="images/project-thumb2.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 3</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project2-icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 2 -->
-
-            <!-- project 3 -->
-            <div id="project3" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 4</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project3">
-              <figure class="effect-portfolio wp4 delay-05s">
-                <img src="images/project-thumb.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 4</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project3-icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 3 -->
-
-            <!-- project 4 -->
-            <div id="project4" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 5</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project4">
-              <figure class="effect-portfolio wp4 delay-05s">
-                <img src="images/project-thumb.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 5</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project4-icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 4 -->
-
-            <!-- Project 5 -->
-            <div id="project5" class="zoom-anim-dialog mfp-hide projects">
-              <h1>Project 6</h1>
-              <h2>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</h2>
-              <a href="#" target="_blank" class="projectlink">Visit Website</a>
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-              <img src="images/project.jpg" alt="">
-            </div>
-            <a class="popup-with-zoom-anim" href="#project5">
-              <figure class="effect-portfolio wp4 delay-05s">
-                <img src="images/project-thumb2.jpg" alt=""/>
-                <figcaption>
-                  <h2>Project 6</h2>
-                  <p>Curabitur volutpat massa ac tincidunt molestie. Vestibulum massa nunc.</p>
-                  <span class="icon-project5-icon"></span>
-                </figcaption>
-              </figure>
-            </a>
-            <!-- /project 5 -->
-
-          </div>
-          <!-- /Grid -->
-        </section>
-        <!-- /portfolio -->
-
-        <!-- about -->
-        <section class="light-bg text-center" id="about">
-          <div class="container-fluid nopadding">
-            <div class="wrapper">
-              <div class="aboutimgwrap">
-                <div class="wp3 aboutimg"></div>
-              </div>
-            </div>
-            <div class="container about">
-              <div class="row">
-                <div class="col-md-5 col-md-offset-7">
-                  <h1>About Me</h1>
-
-                  <p>My name is Aaron Jones, I reside in Altadena, California. I am a Web Developer and Programmer of sorts with experience in langauges such as Java, C, C++, HTML5, CSS3, RoR (Ruby on Rails). I also have experience managing servers and services such as Web Hosting and SEO Optimization. I enjoy using Linux and other Unix-Based Operating Systems. I have a great attention to detail and like to ensure that my clients are fully satisfied with the site or program that I build for them. </p>
-
-                  <p>I started programming in High School at Glendale Adventist Academy (GAA), taking classes such as Web Design and Programming I and II. Which introduced me to languages such as JavaScript, HTML, CSS, and the C programming language. I later went onto College at a variety of colleges which taught me the fundamentals of C++ and Java. I took it upon my self with the basic knowledge of those languages to expand into other langauges such as HTML5, CSS3, C#, and Ruby on Rails. I also began learning frameworks such as Node.js, Angular.js, and Bootstrap. I am always looking to learn new langauges and frameworks to be able to offer a variety of different solutions to potential clients.</p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- /about -->
-
-        <!-- contact -->
-        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1>Contact Us</h1>
-                <h2>Want to discuss? Get in touch!</h2>
-                <a id="trigger-overlay" class="animated fadeInDown delay-2s send-message" href="#contact" data-scroll><span>Send us a message</span></a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- /contact -->
-
-        <!-- contact form -->
-        <div id="pro">
-          <div class="overlay overlay-contentpush">
-            <button type="button" class="overlay-close">Close</button>
-            <div class="container">
-              <div class="projectplanner">
-                <h1>Want to discuss?</h1>
-                <h2>We'd love to hear from you.</h2>
-                <div class="container">
-                  <div class="col-sm-offset-3 col-sm-6">
-
-                    <form name="sentMessage" class="contactForm" id="contactForm" novalidate>
-                      <div class="control-group">
-                        <div class="controls">
-                          <label for="name">Name</label>
-                          <input type="text" class="form-control input-lg" placeholder="Name *" id="name" required data-validation-required-message="Please enter your name" />
-                          <p class="help-block"></p>
-                        </div>
-                      </div>
-                      <div class="control-group">
-                        <div class="controls">
-                          <label for="email">Email</label>
-                          <input type="email" class="form-control input-lg" placeholder="Email address *" id="email" required data-validation-required-message="Please enter your email" />
-                          <p class="help-block"></p>
-                        </div>
-                      </div>
-                      <div class="control-group">
-                        <div class="controls">
-                          <label for="website">Website</label>
-                          <input type="text" class="form-control input-lg" placeholder="Website" id="website" />
-                          <p class="help-block"></p>
-                        </div>
-                      </div>
-                      <div class="control-group">
-                        <div class="controls">
-                          <label for="message">Message</label>
-                          <textarea rows="10" cols="100" class="form-control input-lg" placeholder="How can we help? *" id="message" required
-                            data-validation-required-message="Please enter your message" minlength="5" 
-                            data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
-                          <p class="help-block"></p>
-                        </div>
-                      </div>
-                      <div id="success"> </div>
-                      <button type="submit" class="submit-btn center-block">Send Message</button><br />
-                      <span class="required">* required fields</span>
-                    </form>
-
-                  </div>
-                </div>
-              </div>
+  <!--Intro Page-->
+  <a class="anchor-home" id="home"></a>
+  <div class="intro-background home-border">
+    <div class="overlay1">
+      <div class="container">
+        <div class="row">
+          <div class="col=lg-12">
+            <div class="intro-message">
+              <h1 style="text-align:center">A Portfolio</h1>
+              <h12 style="text-align:center:">by Noah Grundvig</h12>
+              <h2 style="text-align:center">And this is just the Beginning</h2>
+                <ul class="list-inline intro-social-buttons">
+                <!--Social buttons-->
+                  <li1>
+                    <a href="http://codepen.io/FlyinKibblez/" target="_blank" class="btn btn-default img-responsive"><i class="fa fa-codepen fa-fw"></i> <span class="network-name">Codepen</span></a>
+                  </li1>
+                  <li1>
+                    <a href="https://github.com/Flyinkibblez" target="_blank" class="btn btn-default img-responsive"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                  </li1>
+                  <li1>
+                    <a href="https://www.linkedin.com/in/noahgrundvig" target="_blank" class="btn btn-default img-responsive"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                  </li1>
+                  <li1>
+                    <a href="http://www.freecodecamp.com/flyinkibblez" target="_blank" class="btn btn-default img-responsive"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
+                </li1>
+              </ul>
             </div>
           </div>
         </div>
-        <!-- /contact form -->
-
-        <!-- Google map -->
-        <div id="cd-google-map">
-          <div id="google-container"></div>
-          <div id="cd-zoom-in"></div>
-          <div id="cd-zoom-out"></div>
-          <address>3536 McNally Ave, Altadena, CA 91001</address>
-        </div>
-        
-
-        <!-- footer -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 copyright">
-                <h1><span class="icon-logo"></span>Logo</h1>
-                <p>Etiam at sapien eu lectus tempor nullam.</p>
-                <p>&copy; 2015 Company</p>
-              </div>
-              <div class="col-md-6 footerlinks">
-                <ul>
-                  <li><a class="up-btn2" href="#mslider">Back to Top</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- /footer -->
-
       </div>
     </div>
   </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/modernizr.custom.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/fastclick.js"></script>
-  <script src="js/libraries.min.js"></script>
-  <script src="js/overlay.js"></script>
-  <script src="js/jqBootstrapValidation.js"></script>
- <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <script src="js/scripts.js"></script>
+  <!--blog section-->
+  <a class="blog" id="blog"></a>
+  <div class="blog-background blog-border">
+    <div class="overlay2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-offset-2">
+            <!--beginning of blog entries-->
+            <h3 class="blog-header">FlyinKibblez's Blog</h3>
+              <p class="blog-title"> Welcome!
+                </p>
+              <p class="blog-description">As most blogs go, here is just a bit of information on what I have been up to.  I don't blog everyday, but will update whenever I feel I have made a significant step in my learning skill.
+                </p>
+               <br>
+              <p class="blog-description1">Come back to see where I'm at!
+                </p>       
+               <div class="col-lg-12">
+                 <div class="scrollbar">
+                   <h4 class="blog-title-entry">March 9, 2016 3:42pm</h4>
+                   <div class="well" id="well">
+                     <p class="blog-entry text-left">Continuing on...</p>
+                     <p class="blog-entry text-left">I was initially making many changes to this page based off recommendations given to me by friends and others willing to offer their critique, but as it turns out, that was going to be almost as much work as just starting from scratch since there were already so many things I would do different. With that in mind, I decided to hold off and continue on with the course until later.</p>
+                     <p class="blog-entry text-left">There was already so much stuff I had learned since doing this project, I wanted to get a better grasp on javaScript and then try and apply it as well as JQuery to my page.</p>
+                     <p class="blog-entry text-left">Either way, I think I will continue with this blog as I continue my self education.</p>   
+                   </div>
+                  <h4 class="blog-title-entry">February 27, 2016 12:08am</h4>
+                   <div class="well" id="well">
+                     <p class="blog-entry text-left">Learned something important today....imgur is horrible for all but reddit.  So, I realized at a buddies house than none of my pic links showed up.
+                    </p>
+                     <p class="blog-entry text-left">Now fixed, thank you.  (the site looked horrible without any graphics appearing).
+                     </p>
+                    </div>
+                   <h4 class="blog-title-entry">February 25, 2016 8:30am</h4>
+                    <div class="well" id="well">
+                      <p class="blog-entry text-left">Started working on some recommendations I had from reddit for formatting.  Added some borders around the background and chandged body color to make each section appear to be floating.
+                       </p>
+                      </div>
+                    <h4 class="blog-title-entry">February 24, 2016 9:30pm</h4>
+                     <div class="well" id="well">
+                       <p class="blog-entry text-left">Well, I thought I was done, but I really wanted to figure out this scrollbar thing, so here I am still.
+                      </p>
+                    </div>
+                  <h4 class="blog-title-entry">February 24, 2016 8:30pm</h4>
+                    <div class="well" id="well">
+                      <p class="blog-entry text-left">Still some changes I want to make, and I'm sure many more as I learn more.  For now, my brain is mush, and I am happy with what I have done.
+                     </p>
+                    </div>
+                  <h4 class="blog-title-entry">February 24, 2016 3:00pm</h4>
+                    <div class="well" id="well">
+                      <p class="blog-entry text-left">Welcome to my first post.
+                     </p>
+                      <p class="blog-entry text-left">Currently, my brain hurts a bit...both figuratively and literally.  I think that is to be expected.  While I'm not positive on how much content I really HAVE to put in here for one of my first projects, I get the feeling I am over doing it a bit more than I need to.</p>
+                       <br>
+                      <p class="blog-entry text-left">I figure it's really up to me, and I want it to look nice.  Besides, it is turning out to be some good training in research and experiementation.</p>
+                    </div>      
+                  </div>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+   <!--Projects section-->     
+  <a class="projects" id="projects"></a>
+   <div class="projects-background project-border">
+    <div class="overlay3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="projects-header">Projects</h3>
+              <p class="projects-title"> - current and future works - </p>
+             </div>
+            </div>
+          <div class="col-xs-12">
+          <!--Projects buttons.  Still need to figure out how to adjust auto sizing correctly-->
+            <ul>
+              <li1>
+                <a href="http://codepen.io/FlyinKibblez/pen/QyepJW" target="_blank" class="img-responsive btn-project1 project-background1"></a>
+              </li1>
+              <li1>
+                <a href="https://www.dropbox.com/s/gsl2wjwmtva11u3/Flight%20Expense%20Report.xlsm?dl=0class=" target="_blank" class="img-responsive btn-project2 project-background2"></a>
+              </li1>
+              <li1>
+                <a class="img-responsive btn-project3 project-background3"></a>
+              </li1>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
 
+  <!--about section-->
+  <a class="about" id="about"></a>
+  <div class="about-background about-border">
+    <div class="overlay4">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix"></div>
+          <div class="col-xs-12 col-xs-3">
+            <img class="img-me img-responsive me-border" src="http://i1108.photobucket.com/albums/h401/noahgrundvig/noah_zpsxcso7b8l.jpg">
+          </div>
+            <div class="col-xs-6 col-xs-offset-3">
+              <h3 class="about-header">A Little About Me</h3>
+                <p class="about-paragraph"> I am just starting on my journey to <a class="link" target="_blank" href="http://www.freecodecamp.com/flyinkibblez">training myself </a> in various types of code. I am finding it fun, challenging, and rewarding.
+              </p>
+                <p class="about-paragraph">Currently I manage a On-Demand charter company, and am a full-time pilot. While I have a wife and new baby at home that I enjoy spending much of my time with, I spend as much as I can learning new coding skills.
+              </p>
+                <p class="about-paragraph">Even at the very start, the rewards received from successfully seeing the results are something that has be very addicted to coding, and I cannot wait to learn more!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--contact section-->
+  <a class="contact" id="contact"></a>
+  <div class="contact-background contact-border">
+    <div class="overlay5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="auto">
+            <div class="intro-message">
+              <h3 class="contact-header">Contact Information</h3>
+              <p class="contact-subtitle">yes, you now have my digits</p>
+            </div>
+          </div>
+            <div class="col-md-6 col-xs-offset-3">
+              <ul class="list-inline intro-social-buttons">
+              <!--more social buttons-->
+                <li1>
+                  <a href="http://codepen.io/FlyinKibblez/" target="_blank" class="img-responsive btn btn-default btn-md contact-btn-font"><i class="fa fa-codepen fa-fw"></i> <span class="network-name">Codepen</span></a>
+                </li1>
+                <li1>
+                  <a href="https://github.com/Flyinkibblez" target="_blank" class="img-responsive btn btn-default btn-md contact-btn-font"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </li1>
+              </div>
+               <div class="col-md-6 col-xs-offset-3">
+                <li1>
+                  <a href="https://www.linkedin.com/in/noahgrundvig" target="_blank" class="img-responsive btn btn-default btn-md contact-btn-font"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                </li1>
+                <li1>
+                  <a href="http://www.freecodecamp.com/flyinkibblez" target="_blank" class="btn btn-default btn-md contact-btn-font"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
+                </li1>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="copyright">FlyinKibblez 2016 -- All rights that don't really exist, reserved --
+         </p>
+       </div>
+     </div>
+   </div>
+  </footer>
 
 </body>
 </html>
