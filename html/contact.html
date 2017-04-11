@@ -45,23 +45,22 @@
                 <h2>Fill out the form below to get into contact with me!</h2>
             </div>
 
-            <div class="content">
-            <h2 class="content-subhead">Contact Form</h2>
-            <p>
-                <iframe src="https://docs.google.com/forms/d/1ttj2G8GKdsArwCQoQPzKawc-WRv8RpdLLDy8O9kSkK8/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </p>
-
-            <h2 class="content-subhead">Contact Information</h2>
-                <ul class="soc">
-                    <li><a class="soc-facebook" href="https://www.facebook.com/Heeroyuy424"></a></li>
-                    <li><a class="soc-email1" href="ajones061392@gmail.com"></a></li>
-                    <li><a class="soc-github" href="https://github.com/BigBoss424"></a></li>
-                    <li><a class="soc-google" href="https://plus.google.com/+AaronJonesTheProgrammer/"></a></li>
-                    <li><a class="soc-linkedin soc-icon-last" href="https://www.linkedin.com/in/aaron-jones-4739bb85"></a></li>
-                </ul>
-            </div>
-    </div>
-
+            <form action="contact.php" method="post">
+                <p>
+                    <label for="firstName">First Name: </label>
+                    <input type="text" name="first_name" id="firstName">
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="last_name" id="lastName">
+                </p>
+                <p>
+                    <label for="emailAddress">Email Address:</label>
+                    <input type="text" name="email" id="emailAddress">
+                </p>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     <script src="../js/ui.js"></script>
 
     <script>
