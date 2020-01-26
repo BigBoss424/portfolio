@@ -2,7 +2,7 @@
 title: About Alembic
 feature_text: |
   ## jPortfolio
-  ### Aaron Jones | Programmer | Web Developer | Computer Scientist
+  ### Aaron Jones | Programmer | Web Developer 
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to my site. I have many services which I provide and deliver upon. Feel free to browse the About Me section to learn more about me, the Projects section to see what projects I am working on and have worked on. As well as the Contact section to get into contact with me for any of your web and software needs. "
 ---
