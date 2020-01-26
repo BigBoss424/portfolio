@@ -7,9 +7,12 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Welcome to my site. I have many services which I provide and deliver upon. Feel free to browse the About Me section to learn more about me, the Projects section to see what projects I am working on and have worked on. As well as the Contact section to get into contact with me for any of your web and software needs. "
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+## About
 
-{% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %} {% include button.html text="Tip me $5 💸" link="https://www.paypal.me/daviddarnes/5usd" color="#333333" %}
+Welcome to my site. I have many services which I provide and deliver upon. Feel free to browse the <a href="html/aboutme.html">About Me</a> section to learn more about me, the <a href="html/projects.html">Projects</a> section to see what projects I am working on and have worked on. As well as the <a href="html/contact.html">Contact</a> section to get into contact with me for any of your web and software needs.
+
+
+<!-- {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %} {% include button.html text="Tip me $5 💸" link="https://www.paypal.me/daviddarnes/5usd" color="#333333" %} -->
 
 ## Features
 
