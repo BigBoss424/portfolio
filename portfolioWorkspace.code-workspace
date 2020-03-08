@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/otacon424/Documents/github/web1.0"
+		},
+		{
+			"path": "/home/otacon424/Documents/github/eqpublishing"
+		},
+		{
+			"path": "/home/otacon424/Documents/github/hugo-nes-classic"
+		},
+		{
+			"path": "/home/otacon424/Documents/github/northstaridaho"
+		},
+		{
+			"path": "/home/otacon424/Documents/github/c++_Finances"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio"
+	}
+}
