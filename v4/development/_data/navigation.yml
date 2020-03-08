@@ -1,75 +1,75 @@
 - title: Start
-  url: "/"
+  url: ""
   side: left
 
 - title: Getting Started
-  url: "/getting-started/"
+  url: "getting-started/"
   side: left
 
 - title: "Templates"
-  url: "/design/"
+  url: "design/"
   side: left
   dropdown:
   - title: "Grid & Colors"
-    url: "/design/grid/"
+    url: "design/grid/"
   - title: "Typography"
-    url: "/design/typography/typography/"
+    url: "design/typography/typography/"
   - title: "Page/Post"
-    url: "/design/page/"
+    url: "design/page/"
   - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
+    url: "design/post-left-sidebar/"
   - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
+    url: "design/post-right-sidebar/"
   - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
+    url: "design/page-fullwidth/"
   - title: "Blog-Page"
-    url: "/blog/"
+    url: "blog/"
   - title: "Video"
-    url: "/design/video/"
+    url: "design/video/"
   - title: "Gallery"
-    url: "/design/gallery/"
+    url: "design/gallery/"
   - title: "Portfolio"
-    url: "/design/portfolio/"
+    url: "design/portfolio/"
 
 - title: "Header Styles"
-  url: "/headers/"
+  url: "headers/"
   side: left
   dropdown:
   - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
+    url: "design/header-full-width-image/"
   - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
+    url: "design/header-image-pattern/"
   - title: "Header with image and color"
-    url: "/design/header-image-color/"
+    url: "design/header-image-color/"
   - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
+    url: "design/header-logo-only/"
   - title: "Header With Text"
-    url: "/design/header-with-text/"
+    url: "design/header-with-text/"
   - title: "No Header"
-    url: "/design/no-header/"
+    url: "design/no-header/"
   - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+    url: "design/no-header-but-image/"
 
 - title: Documentation
-  url: "/documentation/"
+  url: "documentation/"
   side: left
   dropdown:
   - title: "Changelog"
-    url: "/changelog/"
+    url: "changelog/"
   - title: "Roadmap"
-    url: "/roadmap/"
+    url: "roadmap/"
 
 - title: Blog
-  url: "/blog/"
+  url: "blog/"
   side: left
   dropdown:
   - title: "Blog Archive"
-    url: "/blog/archive/"
+    url: "blog/archive/"
 
 - title: "Search"
-  url: "/search/"
+  url: "search/"
   side: right
 
 - title: "Contact"
-  url: "/contact/"
+  url: "contact/"
   side: right

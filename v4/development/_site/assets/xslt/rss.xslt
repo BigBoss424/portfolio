@@ -31,7 +31,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta name="description" content="This site will become the new homepage for the new jPortfolio site.">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
@@ -43,7 +43,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta property="og:description" content="This site will become the new homepage for the new jPortfolio site.">
 	<meta property="og:url" content="/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -58,7 +58,7 @@
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
 	<meta name="twitter:title" content="RSS Feed (Styled)">
-	<meta name="twitter:description" content="»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.">
+	<meta name="twitter:description" content="This site will become the new homepage for the new jPortfolio site.">
 	
 	
 
@@ -172,7 +172,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="/search/">Search</a></li>
+              <li><a  href="search/">Search</a></li>
 
             
             
@@ -188,7 +188,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="/contact/">Contact</a></li>
+              <li><a  href="contact/">Contact</a></li>
 
             
             
@@ -207,7 +207,7 @@
 
             
             
-              <li><a  href="/">Start</a></li>
+              <li><a  href="">Start</a></li>
               <li class="divider"></li>
 
             
@@ -222,7 +222,7 @@
 
             
             
-              <li><a  href="/getting-started/">Getting Started</a></li>
+              <li><a  href="getting-started/">Getting Started</a></li>
               <li class="divider"></li>
 
             
@@ -239,59 +239,59 @@
             
 
               <li class="has-dropdown">
-                <a  href="/design/">Templates</a>
+                <a  href="design/">Templates</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="/design/grid/">Grid &amp; Colors</a></li>
+                      <li><a  href="design/grid/">Grid &amp; Colors</a></li>
                     
 
                       
 
-                      <li><a  href="/design/typography/typography/">Typography</a></li>
+                      <li><a  href="design/typography/typography/">Typography</a></li>
                     
 
                       
 
-                      <li><a  href="/design/page/">Page/Post</a></li>
+                      <li><a  href="design/page/">Page/Post</a></li>
                     
 
                       
 
-                      <li><a  href="/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
+                      <li><a  href="design/post-left-sidebar/">Post-Left-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
+                      <li><a  href="design/post-right-sidebar/">Post-Right-Sidebar</a></li>
                     
 
                       
 
-                      <li><a  href="/design/page-fullwidth/">Page Full-Width</a></li>
+                      <li><a  href="design/page-fullwidth/">Page Full-Width</a></li>
                     
 
                       
 
-                      <li><a  href="/blog/">Blog-Page</a></li>
+                      <li><a  href="blog/">Blog-Page</a></li>
                     
 
                       
 
-                      <li><a  href="/design/video/">Video</a></li>
+                      <li><a  href="design/video/">Video</a></li>
                     
 
                       
 
-                      <li><a  href="/design/gallery/">Gallery</a></li>
+                      <li><a  href="design/gallery/">Gallery</a></li>
                     
 
                       
 
-                      <li><a  href="/design/portfolio/">Portfolio</a></li>
+                      <li><a  href="design/portfolio/">Portfolio</a></li>
                     
                   </ul>
 
@@ -310,44 +310,44 @@
             
 
               <li class="has-dropdown">
-                <a  href="/headers/">Header Styles</a>
+                <a  href="headers/">Header Styles</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="/design/header-full-width-image/">Header with Full-Width-Image</a></li>
+                      <li><a  href="design/header-full-width-image/">Header with Full-Width-Image</a></li>
                     
 
                       
 
-                      <li><a  href="/design/header-image-pattern/">Header with Image and Pattern</a></li>
+                      <li><a  href="design/header-image-pattern/">Header with Image and Pattern</a></li>
                     
 
                       
 
-                      <li><a  href="/design/header-image-color/">Header with image and color</a></li>
+                      <li><a  href="design/header-image-color/">Header with image and color</a></li>
                     
 
                       
 
-                      <li><a  href="/design/header-logo-only/">Header Only With Logo</a></li>
+                      <li><a  href="design/header-logo-only/">Header Only With Logo</a></li>
                     
 
                       
 
-                      <li><a  href="/design/header-with-text/">Header With Text</a></li>
+                      <li><a  href="design/header-with-text/">Header With Text</a></li>
                     
 
                       
 
-                      <li><a  href="/design/no-header/">No Header</a></li>
+                      <li><a  href="design/no-header/">No Header</a></li>
                     
 
                       
 
-                      <li><a  href="/design/no-header-but-image/">No Header but Image</a></li>
+                      <li><a  href="design/no-header-but-image/">No Header but Image</a></li>
                     
                   </ul>
 
@@ -366,19 +366,19 @@
             
 
               <li class="has-dropdown">
-                <a  href="/documentation/">Documentation</a>
+                <a  href="documentation/">Documentation</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="/changelog/">Changelog</a></li>
+                      <li><a  href="changelog/">Changelog</a></li>
                     
 
                       
 
-                      <li><a  href="/roadmap/">Roadmap</a></li>
+                      <li><a  href="roadmap/">Roadmap</a></li>
                     
                   </ul>
 
@@ -397,14 +397,14 @@
             
 
               <li class="has-dropdown">
-                <a  href="/blog/">Blog</a>
+                <a  href="blog/">Blog</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="/blog/archive/">Blog Archive</a></li>
+                      <li><a  href="blog/archive/">Blog Archive</a></li>
                     
                   </ul>
 
@@ -436,8 +436,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="/" title="jPortfolio – A Flexible Theme for Jekyll">
-				<img src="/assets/img/logo.png" alt="jPortfolio – A Flexible Theme for Jekyll">
+			<a id="logo" href="/" title="jPortfolio – A Jekyll build of my portfolio">
+				<img src="/assets/img/logo.png" alt="jPortfolio – A Jekyll build of my portfolio">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -514,7 +514,7 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              »Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.
+              This site will become the new homepage for the new jPortfolio site.
               <a href="/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
@@ -544,22 +544,22 @@
               
                 
                   <li >
-                    <a href="/contact/"  title="Contact">Contact</a>
+                    <a href="contact/"  title="Contact">Contact</a>
                   </li>
               
                 
                   <li >
-                    <a href="/feed.xml"  title="Subscribe to RSS Feed">RSS</a>
+                    <a href="feed.xml"  title="Subscribe to RSS Feed">RSS</a>
                   </li>
               
                 
                   <li >
-                    <a href="/atom.xml"  title="Subscribe to Atom Feed">Atom</a>
+                    <a href="atom.xml"  title="Subscribe to Atom Feed">Atom</a>
                   </li>
               
                 
                   <li >
-                    <a href="/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
+                    <a href="sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
@@ -643,7 +643,7 @@
 		
 
 
-<script src="/assets/js/javascript.min.js"></script>
+<script src="assets/js/javascript.min.js"></script>
 
 
 
