@@ -19,7 +19,7 @@
                         <a class="nav-link" href="https://bigboss424.github.io/jones-resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog">Blog</a>
+                        <a class="nav-link" href="./blog/production/index.html">Blog</a>
                     </li>
 
                 </ul>

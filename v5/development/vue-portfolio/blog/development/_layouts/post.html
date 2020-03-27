@@ -2,19 +2,20 @@
 layout: default
 ---
 
-<section class="post">
-  <h2>{{ page.title }}</h2>
+<article>
+  {% include meta.html post=page %}
   {{ content }}
-      
+  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
+    <hr>
+    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+    <noscript>Please enable JavaScript to view comments.</noscript>
+  {% endif %}
+</article>
 
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
-    <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-
-
-  
-  <!--<span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
-      <a class="post" href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
-  -->
-</section>
-
-
+{% if site.show_related %}
+  <footer class="related">
+    <div class="previous">{% if page.previous.url %}<span>Previous Post</span><a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>{% endif %}</div>
+    <div class="next">{% if page.next.url %}<span>Next Post</span><a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>{% endif %}</div>
+  </footer>
+{% endif %}

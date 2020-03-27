@@ -3,14 +3,14 @@
         <footer class="container py-5">
             <div class="row">
                 <div class="col-12 col-md">
-                    <small class="d-block mb-3 text-muted">© 2017-2018</small>
+                    <small class="d-block mb-3 text-muted">© 2020-2021</small>
                 </div>
                 <div class="col-6 col-md">
                     <h5>Features</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Store</a></li>
                         <li><a class="text-muted" href="#">Web Tools</a></li>
-                        <li><a class="text-muted" href="#">Updates</a></li>
+                        <li><a class="text-muted" href="./updates/production/index.html">Updates</a></li>
 <!--                        <li><a class="text-muted" href="#">Validators</a></li>-->
 <!--                        <li><a class="text-muted" href="#">Another one</a></li>-->
 <!--                        <li><a class="text-muted" href="#">Last time</a></li>-->
@@ -21,7 +21,7 @@
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="https://www.github.com/bigboss424/">Github</a></li>
                         <li><a class="text-muted" href="https://www.twitter.com/heeroyuy424">Twitter</a></li>
-                        <li><a class="text-muted" href=".">Documentation</a></li>
+                        <li><a class="text-muted" href="./docs/">Documentation</a></li>
                         <li><a class="text-muted" href="#">Tutorials</a></li>
                     </ul>
                 </div>
