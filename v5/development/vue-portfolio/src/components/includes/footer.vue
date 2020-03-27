@@ -19,9 +19,9 @@
                 <div class="col-6 col-md">
                     <h5>Resources</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Github</a></li>
-                        <li><a class="text-muted" href="#">Facebook</a></li>
-                        <li><a class="text-muted" href="#">Documentation</a></li>
+                        <li><a class="text-muted" href="https://www.github.com/bigboss424/">Github</a></li>
+                        <li><a class="text-muted" href="https://www.twitter.com/heeroyuy424">Twitter</a></li>
+                        <li><a class="text-muted" href=".">Documentation</a></li>
                         <li><a class="text-muted" href="#">Tutorials</a></li>
                     </ul>
                 </div>
@@ -38,16 +38,15 @@
                     <h5>About</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Contact Us</a></li>
-                        <li><a class="text-muted" href="#">Location</a></li>
-                        <li><a class="text-muted" href="#">Privacy</a></li>
-                        <li><a class="text-muted" href="#">Terms</a></li>
+                        <li><a class="text-muted" href="../html/location.html">Location</a></li>
+                        <li><a class="text-muted" href="../html/privacy.html">Privacy</a></li>
+                        <li><a class="text-muted" href="../html/terms.html">Terms</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
     </div>
 </template>
-
 <script>
     export default {
         name: "footer"

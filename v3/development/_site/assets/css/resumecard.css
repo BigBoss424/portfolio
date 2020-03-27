@@ -123,7 +123,7 @@ hr {
     border-bottom: 1px dashed #ddd;
 }
 
-/* timeline css */
+/* timeline html */
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -291,13 +291,13 @@ hr {
     left: 7px;
 }
 
-/* stackoverflow css */
+/* stackoverflow html */
 .list-stackoverflow span {
   margin-right: 5px;
   width: 35px;
 }
 
-/* skills css */
+/* skills html */
 .list-skills li .progress {
     height: 10px;
     box-shadow: none;

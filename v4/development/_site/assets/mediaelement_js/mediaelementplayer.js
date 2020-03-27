@@ -877,7 +877,7 @@ if (typeof jQuery != 'undefined') {
 				t.height = height;
 			}
 
-			// detect 100% mode - use currentStyle for IE since css() doesn't return percentages
+			// detect 100% mode - use currentStyle for IE since html() doesn't return percentages
 			if (t.height.toString().indexOf('%') > 0 || (t.$node.css('max-width') !== 'none' && t.$node.css('max-width') !== 't.width') || (t.$node[0].currentStyle && t.$node[0].currentStyle.maxWidth === '100%')) {
 
 				// do we have the native dimensions yet?
@@ -2546,7 +2546,7 @@ if (typeof jQuery != 'undefined') {
 				.addClass('mejs-container-fullscreen')
 				.width('100%')
 				.height('100%');
-				//.css({position: 'fixed', left: 0, top: 0, right: 0, bottom: 0, overflow: 'hidden', width: '100%', height: '100%', 'z-index': 1000});
+				//.html({position: 'fixed', left: 0, top: 0, right: 0, bottom: 0, overflow: 'hidden', width: '100%', height: '100%', 'z-index': 1000});
 
 			// Only needed for safari 5.1 native full screen, can cause display issues elsewhere
 			// Actually, it seems to be needed for IE8, too

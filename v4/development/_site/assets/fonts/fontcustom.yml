@@ -63,11 +63,11 @@ output:
 #   by their base file name.
 #
 #   For Rails and Compass templates, set `preprocessor_path` as the relative
-#   path from OUTPUT[:css] to OUTPUT[:fonts]. By default, these are the same
+#   path from OUTPUT[:html] to OUTPUT[:fonts]. By default, these are the same
 #   directory.
 #
-#   Included in Font Custom: preview, css, scss, scss-rails
-#   Default: css, preview
+#   Included in Font Custom: preview, html, scss, scss-rails
+#   Default: html, preview
 # -----------------------------------------------------------------------------
 
 #templates:

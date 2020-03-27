@@ -2676,8 +2676,8 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       if (!modal.hasClass('open')) {
         var open_modal = self.S('[' + self.attr_name() + '].open');
 
-        if (typeof modal.data('css-top') === 'undefined') {
-          modal.data('css-top', parseInt(modal.css('top'), 10))
+        if (typeof modal.data('html-top') === 'undefined') {
+          modal.data('html-top', parseInt(modal.css('top'), 10))
             .data('offset', this.cache_offset(modal));
         }
 
@@ -2794,7 +2794,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         if (animData.pop) {
           css.top = $(root_element).scrollTop() - el.data('offset') + 'px'; //adding root_element instead of window for scrolling offset if modal trigger is below the fold
           var end_css = {
-            top: $(root_element).scrollTop() + el.data('css-top') + 'px', //adding root_element instead of window for scrolling offset if modal trigger is below the fold
+            top: $(root_element).scrollTop() + el.data('html-top') + 'px', //adding root_element instead of window for scrolling offset if modal trigger is below the fold
             opacity: 1
           };
 
@@ -2810,7 +2810,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         }
 
         if (animData.fade) {
-          css.top = $(root_element).scrollTop() + el.data('css-top') + 'px'; //adding root_element instead of window for scrolling offset if modal trigger is below the fold
+          css.top = $(root_element).scrollTop() + el.data('html-top') + 'px'; //adding root_element instead of window for scrolling offset if modal trigger is below the fold
           var end_css = {opacity: 1};
 
           return setTimeout(function () {
