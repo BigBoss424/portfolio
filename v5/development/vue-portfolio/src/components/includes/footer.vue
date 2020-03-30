@@ -21,7 +21,7 @@
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="https://www.github.com/bigboss424/">Github</a></li>
                         <li><a class="text-muted" href="https://www.twitter.com/heeroyuy424">Twitter</a></li>
-                        <li><a class="text-muted" href="./docs/">Documentation</a></li>
+                        <li><a class="text-muted" href="./docs/index.html">Documentation</a></li>
                         <li><a class="text-muted" href="#">Tutorials</a></li>
                     </ul>
                 </div>

@@ -40,13 +40,11 @@
                                     North Idaho Star, a retirement home magazine that Equity Publishing creates
                                     and issues out.
                                 </p>
-<!--                                http://northstaridaho.tk/-->
                                 <button type="button" class="btn btn-outline-primary">
                                     <a class="button_link" href="http://www.eqpublishing.tk/"> View </a>
                                 </button>
                                 <button type="button" class="btn btn-outline-primary">
-                                    <a class="button_link" href=" h
-                                    ttp://northstaridaho.tk/"> North Idaho Star </a>
+                                    <a class="button_link" href="http://northstaridaho.tk/"> North Idaho Star </a>
                                 </button>
                                 <button type="button" class="btn btn-outline-secondary">More</button>
                             </div>
@@ -91,12 +89,14 @@
                                     The links will be down below. The projects so far include two extensions
                                     for the Mozilla Firefox browser, a Kardashian Filter and a Donald Trump Filter.
                                 </p>
-                                <button type="button" class="btn btn-outline-primary">
-                                    <a class="button_link" href="https://github.com/BigBoss424/kardasianFilter">Kardashian Filter</a>
-                                </button>
+
                                 <button type="button" class="btn btn-outline-primary">
                                     <a class="button_link" href="https://github.com/BigBoss424/DonaldTrumpFilter">Trump Filter</a>
                                 </button>
+                                <button type="button" class="btn btn-outline-primary">
+                                    <a class="button_link" href="https://github.com/BigBoss424/kardasianFilter">More</a>
+                                </button>
+
                             </div>
                         </div>
                     </div>
