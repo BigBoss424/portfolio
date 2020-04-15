@@ -19,7 +19,7 @@
                         <a class="nav-link" href="https://bigboss424.github.io/jones-resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog/production/index.html">Blog</a>
+                        <a class="nav-link" href="/home/otacon424/Documents/github/portfolio/v5/development/vue-portfolio/blog/development/_site/index.htmll">Blog</a>
                     </li>
 
                 </ul>
