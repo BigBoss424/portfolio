@@ -19,7 +19,7 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/bigboss424',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/aaron-jones-4739bb85/',
     rss: '/rss.xml'
   },
   tags: {
