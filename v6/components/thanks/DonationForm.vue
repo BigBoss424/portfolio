@@ -9,7 +9,7 @@
 
     <label class="text-md md:text-xl pt-12 py-4 flex flex-col md:flex-row justify-between items-center">
       <span class="font-bold">
-        Donation Amount (in Euro):
+        Donation Amount (in USD):
       </span>
       <input
         v-model="amount"
